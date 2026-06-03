@@ -1,0 +1,8 @@
+/* The CookieYes consent runtime/CSS is not loaded on this static copy, so its
+   markup would otherwise show unstyled. Hide all consent UI. */
+.cky-overlay,
+.cky-consent-container,
+.cky-modal,
+.cky-btn-revisit-wrapper {
+  display: none !important;
+}
